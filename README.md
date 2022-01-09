@@ -4,4 +4,4 @@ Twitter is one of the most active social media platform that many people use to 
 
 Data source: https://www.kaggle.com/c/nlp-getting-started/data
 
-Kaggle notebook URL: https://www.kaggle.com/sugataghosh/natural-language-processing-with-disaster-tweets
+Kaggle notebook: https://www.kaggle.com/sugataghosh/natural-language-processing-with-disaster-tweets
