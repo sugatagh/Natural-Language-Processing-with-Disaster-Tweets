@@ -1,6 +1,14 @@
 # Natural Language Processing with Disaster Tweets
 
-Kaggle notebook: **https://www.kaggle.com/sugataghosh/natural-language-processing-with-disaster-tweets**
+## Project Report
+
+**https://sugatagh.github.io/dsml/projects/natural-language-processing-with-disaster-tweets/**
+
+## Kaggle Notebook
+
+**https://www.kaggle.com/sugataghosh/natural-language-processing-with-disaster-tweets**
+
+## Overview
 
 - Disaster-related tweets have the potential to alert relevant authorities early on so that they can take action to reduce damage and possibly save lives.
 
@@ -18,4 +26,4 @@ Kaggle notebook: **https://www.kaggle.com/sugataghosh/natural-language-processin
 
 - For each text representation setup, we apply a number of [**classifiers**](https://en.wikipedia.org/wiki/Statistical_classification), namely [**logistic regression**](https://en.wikipedia.org/wiki/Logistic_regression), [**k-nearest neighbors classifier**](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm), [**decision tree**](https://en.wikipedia.org/wiki/Decision_tree), [**support vector machine**](https://en.wikipedia.org/wiki/Support_vector_machine) with linear kernel, [**random forest**](https://en.wikipedia.org/wiki/Random_forest), [**stochastic gradient descent**](https://en.wikipedia.org/wiki/Stochastic_gradient_descent), [**ridge classifier**](https://en.wikipedia.org/wiki/Ridge_regression), [**XGBoost classifier**](https://en.wikipedia.org/wiki/XGBoost), and [**AdaBoost classifier**](https://en.wikipedia.org/wiki/AdaBoost), and compare their performances in terms of the average [**F1-score**](https://en.wikipedia.org/wiki/F-score) obtained from $5$ repetitions of $6$-fold [**cross-validation**](https://en.wikipedia.org/wiki/Cross-validation_(statistics)).
 
-- The **support vector machine** classifier with a **linear kernel** acting on the embedded data obtained through the **word2vec** algorithm produces the best result in terms of the average F1-score obtained from $5$ repetitions of $6$-fold cross-validation. It achieves an average F1-score of $0.784468$.
+- The **support vector machine** classifier with a **linear kernel** acting on the embedded data obtained through the **word2vec** algorithm produces the best result in terms of the average $F_1$-score obtained from $5$ repetitions of $6$-fold cross-validation. It achieves an average $F_1$-score of $0.784468$.
